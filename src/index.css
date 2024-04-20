@@ -1,0 +1,97 @@
+body, h1, h2, h3 {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+nav, button, footer  {
+    background-color: #FFEA00;
+}
+
+#content > h1, #content > h2, #content > h3, #content > div, .menuItem {
+    background-color: #FFC000;
+}
+
+nav, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menuItem, img, .box, #content > h1, #content > h2, #content > h3 {
+    border: #702963 solid 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EE4B2B;
+    gap: 20px;
+    padding: 40px;
+}
+
+.menuItem {
+    padding: 10px;
+}
+
+.footer {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.box {
+    padding: 10px;
+}
+
+.box h2, .box h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content > h1 {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+#content > h2 {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#content > h3 {
+    padding: 5px;
+}
+
+h1 + .box {
+    margin-bottom: 30px;
+}
+
+#content > .menuItem + h2 {
+    margin-top: 90px;
+}

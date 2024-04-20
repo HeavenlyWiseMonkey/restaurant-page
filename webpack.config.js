@@ -11,5 +11,11 @@ module.exports = {
     new HtmlWebpackPlugin ({
         template: './src/index.html'
     })
-  ]
+  ],
+  module: {
+    rules: [
+        { test: /\.(png|jpe?g|gif)$/i, use: 'file-loader' },
+        { test: /\.css$/i, use: ['style-loader', 'css-loader']},
+    ],
+  },
 };
