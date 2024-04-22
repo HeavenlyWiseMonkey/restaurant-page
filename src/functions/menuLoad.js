@@ -16,7 +16,6 @@ const menuItem = function (title, price, image) {
     titleElement.innerHTML = title;
     priceElement.textContent = price;
     imageElement.src = image;
-    imageElement.classList.add('menuImg');
     
     itemElement.appendChild(titleElement);
     itemElement.appendChild(priceElement);
